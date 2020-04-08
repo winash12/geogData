@@ -1,0 +1,9 @@
+package landcover;
+
+import toposwapper.TopoSwapperException;
+import java.util.List;
+
+public interface MosaicOperator
+{
+    public void mosaicTiles(List<GLCTile> glcTiles) throws TopoSwapperException;
+}

@@ -1,0 +1,6 @@
+package toposwapper.rules;
+
+public interface Condition
+{
+    public boolean isSatisfied();
+}

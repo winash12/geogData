@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<project name="srtm">
+<path id="combined">
+  <path refid="." />
+  <path refid="./srtm1" />
+</path>
+<target name="compile">
+    <javac srcdir="./toposwapper"
+           destdir="./toposwapper"
+           classpathref="combined" />
+</target>
+</project>
+

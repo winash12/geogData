@@ -1,0 +1,27 @@
+import java.awt.Rectangle;
+public class Test
+{
+    public Test()
+    {
+    }
+    public static void main(String[] args)
+    {
+	int cellSize = 3600;
+	int xoffset = 0;
+	for (int i = 0; i < 40;i++)
+	    {
+		int yoffset =0;
+		for (int j = 0 ; j < 34;j++)
+		    {
+			System.out.println("The value of xoffset is " + xoffset);			System.out.println("The value of yoffset is " + yqoffset);
+			Rectangle rect = new Rectangle(xoffset,
+						       yoffset,
+						       cellSize,
+						       cellSize);		     
+			yoffset += cellSize;
+		    }
+		xoffset += cellSize;
+
+	    }
+    }
+}
