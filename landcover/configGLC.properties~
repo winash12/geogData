@@ -1,9 +1,0 @@
-glc_extract_dir=/home/aswin/geogrid/data
-cellSize=3600
-minLatitude=6
-maxLatitude=40
-minLongitude=60
-maxLongitude=100
-glc_dir=/home/aswin/ChineseGLC
-glc_output_dir=/home/aswin/geogrid/data2/landcover/wps
-
